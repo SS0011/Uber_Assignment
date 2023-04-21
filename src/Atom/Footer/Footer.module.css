@@ -1,0 +1,26 @@
+.Main{
+  padding: 4rem;
+  background-color: black;
+  color:white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.footer{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  width: 100vw;
+ }
+
+ .logo{
+   font-size: 3rem;
+ }
+
+ .content p:hover{
+   cursor: pointer;
+   color: gray;
+ }

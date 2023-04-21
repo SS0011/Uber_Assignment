@@ -1,0 +1,141 @@
+.mainBox{
+  display: flex;
+   justify-content: space-around; 
+}
+.box{
+width: 40%;
+position: absolute;
+background-color: white;
+top:16vh ;
+left: 8vw;
+padding: 2.5rem;
+}
+
+.line{
+  position: absolute;
+    top: 45vh;
+    bottom: 33px;
+    left: 4vw;
+    width: 1px;
+    height: 9vh;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.circle{
+  position: absolute;
+  left: 3.8vw;
+  top: 43.7vh;
+  z-index: 1;
+  height: .3rem;
+  width: .3rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.square{
+  position: absolute;
+  left: 3.8vw;
+  top: 54.3vh;
+  z-index: 1;
+  height: .3rem;
+  width: .3rem;
+  border: 1px solid black;
+  border-radius: 20%;
+}
+.button{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icons{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.Text{
+    display: flex;
+    margin-top: 8px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.Text2{
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.Text3{
+  color: currentColor;
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.Input1{
+  position: relative;
+  z-index: 0;
+  flex: 1;
+  min-height: 52px;
+  background-color: #F6F6F6;
+  padding-right: 33px;
+  padding-left: 41px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border: none;
+  color: #000000;
+  outline: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 24px;
+  box-sizing: border-box;
+  margin-bottom: 2vh;
+  width: 100%;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 12px;
+  font-family:  sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 25px 14px 25px ;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.btn1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 12px;
+  font-family:  sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 25px 14px 25px;
+  color: #000000;
+  background-color: #EEEEEE;
+ 
+}

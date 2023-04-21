@@ -1,0 +1,21 @@
+.Main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 4rem;
+ }
+ .Card{
+   display: flex;
+   gap: 5rem;
+   width: 5rem;
+ }
+ 
+ .Card p{
+   width: 15rem;
+ }
+ 
+ .Arrow{
+   display: flex;
+   font-size: 2rem;
+   margin-top: 5vh;
+ }

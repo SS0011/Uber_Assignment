@@ -1,0 +1,37 @@
+.main{
+  display: flex;
+  width: 89.5vw;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding: 0rem 4rem;
+  height: 8vh;
+  align-items: center;
+}
+
+.sec1{
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.sec2{
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  gap: 1rem;
+}
+
+.icon{
+  font-size: 3rem;
+  margin-top: 1.5vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h4:hover{
+  cursor: pointer;
+  color: lightgray;
+}

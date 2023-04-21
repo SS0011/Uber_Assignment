@@ -1,0 +1,23 @@
+.main{
+  background-image: url(https://www.uber-assets.com/image/upload/v1613106985/assets/0e/47aa71-35cb-459a-a975-78c61ea300e2/original/HP-U4B-NYC-bkg.png);
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 12px;
+  font-family:  sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 25px 14px 25px ;
+  color: #FFFFFF;
+  background-color: #000000;
+}

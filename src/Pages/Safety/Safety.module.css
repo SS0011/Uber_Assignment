@@ -1,0 +1,12 @@
+.main{
+  padding: 4rem;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content1, .content2{
+  width: 40vw;
+}
