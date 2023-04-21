@@ -1,3 +1,3 @@
-# Uber_Assignment
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-y4wexv)
+Uber-Assignment
+Uber Home Page 
+github:-https://github.com/SS0011/Uber_Assignment.git
